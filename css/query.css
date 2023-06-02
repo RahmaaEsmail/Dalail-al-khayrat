@@ -1,0 +1,98 @@
+/* BELOW 624px */
+@media (max-width:39em) {
+
+    .logo,
+    nav {
+        justify-content: center;
+        align-items: center;
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+
+    .grid-2--columns {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .days,
+    .part-one,
+    .part-two {
+        width: 50%;
+    }
+
+    .part-one,
+    .part-two {
+        margin: 0 auto;
+    }
+}
+
+/* Below 448px */
+@media (max-width:30em) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .openning p,
+    .days,
+    .part-one,
+    .part-two {
+        width: 80%;
+    }
+}
+
+@media (max-width:25em) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    .primary-heading,
+    .openning p,
+    .day p {
+        font-size: 2rem;
+    }
+
+    .heading h2 {
+        font-size: 2.8rem;
+    }
+
+    .heading p {
+        font-size: 2rem;
+    }
+
+    .part h4 {
+        font-size: 2rem;
+    }
+
+    .part p {
+        font-size: 1.9rem;
+    }
+
+    .important-reading-box p {
+        font-size: 1.9rem;
+    }
+
+    .allahs-Names h2,
+    .opening-dua h2,
+    .name-of-prophet h2,
+    .dua-of-intention h2,
+    .day-of-reading h2 {
+        font-size: 3.8rem;
+    }
+
+    .allahs-Names p,
+    .opening-dua p,
+    .name-of-prophet p,
+    .dua-of-intention p,
+    .day-of-reading p {
+        font-size: 2.4rem
+    }
+
+    .day-of-reading h5 {
+        font-size: 2.4rem;
+    }
+}

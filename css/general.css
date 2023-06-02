@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+:root {
+    --background-color: #800020;
+    --transition: 0.3s;
+    --main-color: #5F9999;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/bg_small.png);
+    background-position: center top;
+    font-family: 'Rubik', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.container {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-2--columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.4rem;
+    margin: 30px 0;
+    color: #75A1A1;
+}
+
+.heading p {
+    color: #466161;
+    margin-bottom: 20px;
+}
+
+.how-to-read, .importance-of-reading,
+.What-is-theBook {
+    padding: 3.2rem 0;
+    position: relative;
+}
+
+.how-to-read::after, .importance-of-reading::after,
+.What-is-theBook::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #c8d9d9;
+    top: 20px;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #75A1A1;
+}
+
+a:hover {
+    color: #84B8B8;
+}
+
+
+nav {
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    transform: translateX(180px);
+    -webkit-transform: translateX(180px);
+    -moz-transform: translateX(180px);
+    -ms-transform: translateX(180px);
+    -o-transform: translateX(180px);
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+nav i {
+    width: 5px;
+    height: 5px;
+    color: white;
+}
+
+.allahs-Names, .opening-dua, .dua-of-intention,
+.day-of-reading,
+.name-of-prophet {
+    padding: 0 4.2rem;
+}
+
+.allahs-Names h2,
+.opening-dua h2,
+.dua-of-intention h2,
+.name-of-prophet h2,
+.day-of-reading h2 {
+    text-align: center;
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #75A1A1;
+}
+
+.allahs-Names p,
+.opening-dua p,
+.dua-of-intention p,
+.name-of-prophet p,
+.day-of-reading p {
+    font-family: Islamic;
+    font-size: 2.7rem;
+    margin: 20px 0;
+    color: #466161;
+    line-height: 1.7;
+}
+
+.allahs-Names span,
+.opening-dua span,
+.dua-of-intention span,
+.name-of-prophet span,
+.day-of-reading span {
+    color: #800020;
+}
+
+.name-of-prophet h4 {
+    font-size: 2.7rem;
+    color: #800020;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.day-of-reading h5 {
+    font-size: 3.2rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
