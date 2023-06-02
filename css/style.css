@@ -48,7 +48,8 @@ header {
     gap: 10px;
 }
 
-.openning p, .day p {
+.openning a,
+.day a {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.55);
     border-radius: 5px;
@@ -61,6 +62,7 @@ header {
     padding: 1.5rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #75A1A1;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -70,11 +72,12 @@ header {
     cursor: pointer;
 }
 
-.openning p:hover, .day p:hover {
+.openning a:hover,
+.day a:hover {
     color: #84B8B8;
 }
 
-.day p {
+.day a {
     width: 100%;
 }
 
@@ -130,16 +133,13 @@ header {
     cursor: pointer;
 }
 
-.part p {
+.part a {
     font-size: 2rem;
     color: #466161;
     cursor: pointer;
     cursor: pointer;
 }
 
-.part a {
-    color: #466161;
-}
 
 .part h4:hover {
     color: #84B8B8;
@@ -168,4 +168,22 @@ header {
 .What-is-theBook p {
     font-size: 2rem;
     color: #466161;
+}
+
+/*************************/
+/* Footer  */
+/*************************/
+footer .container {
+    text-align: center;
+    padding: 2.4rem 0;
+    font-size: 1.8rem;
+}
+
+footer p {
+    color: #466161;
+}
+
+footer a {
+    font-weight: bold;
+    text-decoration: underline;
 }

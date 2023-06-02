@@ -37,7 +37,7 @@
         margin: 0 auto;
     }
 
-    .openning p,
+    .openning a,
     .days,
     .part-one,
     .part-two {
@@ -51,8 +51,8 @@
     }
 
     .primary-heading,
-    .openning p,
-    .day p {
+    .openning a,
+    .day a {
         font-size: 2rem;
     }
 
@@ -68,7 +68,7 @@
         font-size: 2rem;
     }
 
-    .part p {
+    .part a {
         font-size: 1.9rem;
     }
 
@@ -80,7 +80,8 @@
     .opening-dua h2,
     .name-of-prophet h2,
     .dua-of-intention h2,
-    .day-of-reading h2 {
+    .day-of-reading h2,
+    .end-of-reading h2 {
         font-size: 3.8rem;
     }
 
@@ -88,11 +89,16 @@
     .opening-dua p,
     .name-of-prophet p,
     .dua-of-intention p,
-    .day-of-reading p {
+    .day-of-reading p,
+    .end-of-reading p {
         font-size: 2.4rem
     }
 
     .day-of-reading h5 {
         font-size: 2.4rem;
+    }
+
+    .end-of-reading h2 {
+        font-size: 3.1rem;
     }
 }

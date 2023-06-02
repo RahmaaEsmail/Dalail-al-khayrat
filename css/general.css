@@ -62,14 +62,18 @@ body {
     margin-bottom: 20px;
 }
 
-.how-to-read, .importance-of-reading,
-.What-is-theBook {
+.how-to-read,
+.importance-of-reading,
+.What-is-theBook,
+footer {
     padding: 3.2rem 0;
     position: relative;
 }
 
-.how-to-read::after, .importance-of-reading::after,
-.What-is-theBook::after {
+.how-to-read::after,
+.importance-of-reading::after,
+.What-is-theBook::after,
+footer::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -119,9 +123,12 @@ nav i {
     color: white;
 }
 
-.allahs-Names, .opening-dua, .dua-of-intention,
+.allahs-Names,
+.opening-dua,
+.dua-of-intention,
 .day-of-reading,
-.name-of-prophet {
+.name-of-prophet,
+.end-of-reading {
     padding: 0 4.2rem;
 }
 
@@ -129,7 +136,8 @@ nav i {
 .opening-dua h2,
 .dua-of-intention h2,
 .name-of-prophet h2,
-.day-of-reading h2 {
+.day-of-reading h2,
+.end-of-reading h2 {
     text-align: center;
     font-size: 4.2rem;
     font-weight: 400;
@@ -141,7 +149,8 @@ nav i {
 .opening-dua p,
 .dua-of-intention p,
 .name-of-prophet p,
-.day-of-reading p {
+.day-of-reading p,
+.end-of-reading p {
     font-family: Islamic;
     font-size: 2.7rem;
     margin: 20px 0;
@@ -153,7 +162,8 @@ nav i {
 .opening-dua span,
 .dua-of-intention span,
 .name-of-prophet span,
-.day-of-reading span {
+.day-of-reading span,
+.end-of-reading span {
     color: #800020;
 }
 
